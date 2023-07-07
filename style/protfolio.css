@@ -84,7 +84,7 @@ nav a{
 /* main section styles */
   main{
       max-width: 1140px;
-      margin: 200px auto;
+      margin: 150px auto;
   }
 /*  about sections styles */
 .about{
@@ -100,4 +100,7 @@ nav a{
 }
 .about-info{
     text-align: center;
+}
+#What i do descreption{
+    padding: 30px 150px; 
 }
