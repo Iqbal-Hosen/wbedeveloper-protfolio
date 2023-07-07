@@ -101,6 +101,26 @@ nav a{
 .about-info{
     text-align: center;
 }
+/*  skills reledet style */
 #What i do descreption{
     padding: 30px 150px; 
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skills{
+    padding: 30px;
+   border-radius: 5px;
+   background: #fff;
+   box-shadow: 0px 6px 5px 0px;
+}
+.sklls-descreption{
+   
+}
+/* resume sections styles */
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700; 
 }
