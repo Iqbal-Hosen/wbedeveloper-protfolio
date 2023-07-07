@@ -24,6 +24,17 @@ nav{
   font-weight: 700px;
   padding: 15px 35px;
 }
+.sections-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700; 
+}
+.section-descreption{
+    color: #757575;
+    text-align: center;
+   font-size: 18px;
+}
 nav > ul{
     display: flex;
     align-items: center; 
@@ -39,15 +50,54 @@ nav a{
 }
 /* header releted style */
 .header{
-    background-color: #fff8f3;
+  
+    background-color: #fff8ff;
+   
+
 
 }
 .banner{
     padding: 30px 30px 30px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .baneer .profile-pic{
-    width: 5000px;
+    width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747; 
+    margin-bottom: 0px;
+
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-containe{
+    max-width: 500px;
+}
+/* main section styles */
+  main{
+      max-width: 1140px;
+      margin: 200px auto;
+  }
+/*  about sections styles */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #dad2da;
+    margin-top: 130px 0px;
+
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
