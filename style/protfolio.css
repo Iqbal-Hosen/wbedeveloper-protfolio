@@ -51,13 +51,15 @@ nav a{
 /* header releted style */
 .header{
   
-    background-color: #fff8ff;
-   
-
+    background-color: #fff8f3;
+    background-image:url("../header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
 
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -90,8 +92,7 @@ nav a{
 .about{
     padding: 130px;
     border-radius: 10px;
-    background: #dad2da;
-    margin-top: 130px 0px;
+    background: #fff8f3;
 
 }
 .about-info-container{
@@ -143,4 +144,11 @@ nav a{
     text-align: center;
     margin-top: 50px;
     
+}
+/* footer styles */
+footer{
+    display: flex;
+    background: #fff8f3;
+    margin-top: 100px;
+    padding: 130px 200px;
 }
